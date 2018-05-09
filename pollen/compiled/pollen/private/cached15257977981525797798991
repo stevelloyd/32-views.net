@@ -1,1 +1,0 @@
-#hasheq((doc . (root (p "The first line of the ‘first’ paragraph." (br) "And a new line.") (p "The second paragraph—isn’t it great."))) (metas . #hasheq((here-path . "/Users/stevel/Personal/32-views/pollen/1-starting.html.pm"))))

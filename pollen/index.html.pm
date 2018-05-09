@@ -13,7 +13,7 @@
 
 
 So, you’re looking at something called ◊em{32 views of computing—with Racket and Raspberry Pi}. ◊em{32 views} for short. I'm hoping you'll find it a useful project with some adventure in store–it certainly seems like
-an adventure for me to be writing this.
+an adventure for me to be starting it.
 
 
 In 2017 the British Museum, London held an exhibition of the work of
@@ -52,31 +52,30 @@ Experiencing it is well worth your time and effort, even (especially) if
 you plan to use other languages mostly.
 
   
-The emphasis will be on *physical computing*—using the Pi to sense and
+The emphasis will be on ◊em{physical computing}—using the Pi to sense and
 control the external world, which is the funnest fun available.
 
   
 Together, the Pi, Racket and some simple hardware which you can build
 are a great combination of indoor adventure kit we can use on this
 little escapade. I've stolen Hokusai-sensei's title and hopefully
-spirit–hence ◊em{32 views of computing—with Racket and Raspberry Pi}. I
+spirit of playfulness–hence ◊em{32 views of computing—with Racket and Raspberry Pi}. I
 like the multiple ◊em{views} conceit to making something, because it provides both myself and the
 reader with small, hopefully approachable chunks to digest. And ◊em{32}
 because, computers like powers of  ◊a[#:href "https://en.wikipedia.org/wiki/Power_of_two"]{powers of
 two}.
 
-The plan is to publish in segments, each available for the price of a
+The plan is to publish in parts; each available for the price of a
 bowl of noodles, though sadly I won’t be offering a ring binder as a
 special offer with the first one. Or noodles.
 
   
 ◊h3{Some references}
 
-◊a[#:href "https://blog.britishmuseum.org/new-exhibition-announced-hokusai-beyond-the-great-wave/]{Hokusai: beyond the Great Wave – The British Museum
+◊a[#:href "https://blog.britishmuseum.org/new-exhibition-announced-hokusai-beyond-the-great-wave/"]{Hokusai: beyond the Great Wave – The British Museum
 Blog}
 
-◊a[#:href https://www.raspberrypi.org"]{Raspberry Pi - Teach, Learn, and Make with Raspberry
-Pi}
+◊a[#:href "https://www.raspberrypi.org"]{Raspberry Pi - Teach, Learn, and Make with Raspberry Pi}
 
   
 You can ◊a[#:href "https://tinyletter.com/32views"]{sign up} to be notified when
