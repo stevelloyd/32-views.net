@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>32 views of computing—with Racket and Raspberry Pi</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="tags" content=""/>
+	<link rel="stylesheet" type="text/css" media="all" href="styles.css" />
+    </head>
+    <body>(->html doc #:splice? #t)</body>
+</html>
