@@ -6,7 +6,7 @@
 ◊em{First instalment coming this Spring}
 
 
-◊img[#:src "images/32views-lowres.png"]{}
+◊img[#:src "images/32views-lowres.png" #:alt "A dragon curve drawn in Racket"]{}
 
   
 ◊h2{(0 starting)}
@@ -20,7 +20,7 @@ In 2017 the British Museum, London held an exhibition of the work of
 Japanese artist Katsushika Hokusai.
 
   
-◊img[#:src "images/britishmuseum1.jpg"]{}
+◊img[#:src "images/britishmuseum1.jpg" #:alt "British Museum"]{}
 
   
 I’m about to make a tenuous link from the art to this project about

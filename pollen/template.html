@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>32 views of computing—with Racket and Raspberry Pi</title>
         <meta charset="utf-8" />
