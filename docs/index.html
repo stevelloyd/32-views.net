@@ -4,61 +4,49 @@
         <title>32 views of computing—with Racket and Raspberry Pi</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="created" content="2017-11-22T10:49:36Z"/>
-        <meta name="modified" content="2018-02-20T16:32:26Z"/>
         <meta name="tags" content=""/>
-        <meta name="last device" content="MacBook"/>
+        <link rel="stylesheet" type="text/css" media="all" href="styles.css" />
     </head>
     <body>
-        <div class="note-wrapper">
-            <h1>32 views of computing—with Racket and Raspberry Pi</h1>
-<p><i>First instalment coming this Spring</i> </p>
-<br>
-<p><img src='32views-lowres.png'></p>
-<br>
-<h1>(0 starting)</h1>
-<p>So, you’re looking at something called <i>32 views of computing—with Racket and Raspberry Pi</i>. <i>32 views</i> for short. I'm hoping you'll find it a useful project with some adventure in store–it certainly seems like an adventure for me to be writing this.</p>
-<br>
-<p>In 2017 the British Museum, London held an exhibition of the work of Japanese artist Katsushika Hokusai.</p>
-<br>
-<p><img src='britishmuseum1.jpg'></p>
-<br>
-<p>I’m about to make a tenuous link from the art to this project about computing, bear with me. In about 1830, Hokusai and his daughter Ōi created a series of prints called <a href="https://en.wikipedia.org/wiki/Thirty-six_Views_of_Mount_Fuji">36 views of Mount Fuji</a>. They were published in groups over a number of months, and made use of new materials; available to Japanese artists economically for the first time (for example, the pigment <i>Berlin Blue</i>). For the price of a bowl of noodles, anyone could buy a print in the series; the most famous of which is <i>The Great Wave</i>.</p>
-<br>
-<p>We've reached a similar happy time in computing. For the price of a PS4 game, anyone can buy a Raspberry Pi computer, take over the family TV as a monitor and explore the fantastic fun of computing. Also the Pi is powerful enough to support seriously capable programming tools–Python is rightly of course incredibly popular, but is only one of many systems which can be used in this activity; available for the price of a couple of minutes of your time installing them.</p>
-<br>
-<p>This series will use the <a href="http://racket-lang.org">Racket</a> language and system, which I hope we'll be able to discover together. If programming languages are the computing equivalent of a Swiss Army Knife (™ Victorinox AG), Racket is like having a Swiss Army Knife factory. Experiencing it is well worth your time and effort, even (especially) if you plan to use other languages mostly.</p>
-<br>
-<p>The emphasis will be on <i>physical computing</i>—using the Pi to sense and control the external world, which is the funnest fun available.</p>
-<br>
-	    <p>Together, the Pi, Racket and some simple hardware which you can build are a great combination of indoor adventure kit we can use on this little escapade. I've stolen Hokusai-sensei's title and hopefully spirit–hence <i>32 views of computing—with Racket and Raspberry Pi</i>. I like the multiple 'views' approach, because it provides myself and the reader with small, hopefully approachable chunks to digest. And <i>32</i> because, computers like powers of two.</p>
-	    <p>I like the multiple 'views' approach, because it provides us all with small, hopefully approachable chunks to digest. And <i>32</i> because, computers like <a href="https://en.wikipedia.org/wiki/Power_of_two">powers of two</a>. </p>
-
-	    <p>The plan is to publish in segments, each available for the price of a bowl of noodles, though sadly I won’t be offering a ring binder as a special offer with the first one. Or noodles.</p><br/>
-	    <h3>More to read</h3>
-<p><a href="https://blog.britishmuseum.org/new-exhibition-announced-hokusai-beyond-the-great-wave/">Hokusai: beyond the Great Wave – The British Museum Blog</a></p>
-<p><a href="https://www.raspberrypi.org">Raspberry Pi - Teach, Learn, and Make with Raspberry Pi</a></p>
-<br>
-<p>You can <a href="https://tinyletter.com/32views">sign up</a> to be notified when the first instalment is available.</p>
-
-        </div>
-        <script type="text/javascript">
-            (function() {
-
-    var doc_ols = document.getElementsByTagName("ol");
-
-    for ( i=0; i<doc_ols.length; i++) {
-
-        var ol_start = doc_ols[i].getAttribute("start") - 1;
-        doc_ols[i].setAttribute("style", "counter-reset:ol " + ol_start + ";");
-
-    }
-
-})();
-        </script>
-        <style>
-            html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}html{font-size:87.5%;line-height:1.57143em}html{font-size:14px;line-height:1.6em;-webkit-text-size-adjust:100%}body{background:#fcfcfc;color:#545454;text-rendering:optimizeLegibility;font-family:"AvenirNext-Regular"}a{color:#de4c4f;text-decoration:none}h1{font-family:"AvenirNext-Medium";color:#333;font-size:1.6em;line-height:1.3em;margin-bottom:.78571em}h2{font-family:"AvenirNext-Medium";color:#333;font-size:1.3em;line-height:1em;margin-bottom:.62857em}h3{font-family:"AvenirNext-Medium";color:#333;font-size:1.15em;line-height:1em;margin-bottom:.47143em}p{margin-bottom:1.57143em;hyphens:auto}hr{height:1px;border:0;background-color:#dedede;margin:-1px auto 1.57143em auto}ul,ol{margin-bottom:.31429em}ul ul,ul ol,ol ul,ol ol{margin-bottom:0px}ol li:before{content:counter(ol) ".";counter-increment:ol;color:#e06e73;text-align:right;display:inline-block;min-width:1em;margin-right:0.5em}b,strong{font-family:"AvenirNext-Bold"}i,em{font-family:"AvenirNext-Italic"}code{font-family:"Menlo-Regular"}.text-overflow-ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.sf_code_syntax_string{color:#D33905}.sf_code_syntax_comment{color:#838383}.sf_code_syntax_documentation_comment{color:#128901}.sf_code_syntax_number{color:#0E73A2}.sf_code_syntax_project{color:#5B2599}.sf_code_syntax_keyword{color:#0E73A2}.sf_code_syntax_character{color:#1B00CE}.sf_code_syntax_preprocessor{color:#920448}.note-wrapper{max-width:46em;margin:0px auto;padding:1.57143em 3.14286em}.note-wrapper.spotlight-preview{overflow-x:hidden}u{text-decoration:none;background-image:linear-gradient(to bottom, rgba(0,0,0,0) 50%,#e06e73 50%);background-repeat:repeat-x;background-size:2px 2px;background-position:0 1.05em}s{color:#878787}p{margin-bottom:0.1em}hr{margin-bottom:0.7em;margin-top:0.7em}ul li{text-indent:-0.35em}ul li:before{content:"•";color:#e06e73;display:inline-block;margin-right:0.3em}ul ul{margin-left:1.25714em}ol li{text-indent:-1.45em}ol ol{margin-left:1.25714em}blockquote{display:block;margin-left:-1em;padding-left:0.8em;border-left:0.2em solid #e06e73}.todo-list ul{margin-left:1.88571em}.todo-list li{text-indent:-1.75em}.todo-list li:before{content:"";display:static;margin-right:0px}.todo-checkbox{text-indent:-1.7em}.todo-checkbox svg{margin-right:0.3em;position:relative;top:0.2em}.todo-checkbox svg #check{display:none}.todo-checkbox.todo-checked #check{display:inline}.todo-checkbox.todo-checked .todo-text{text-decoration:line-through;color:#878787}.code-inline{display:inline;background:white;border:solid 1px #dedede;padding:0.2em 0.5em;font-size:0.9em}.code-multiline{display:block;background:white;border:solid 1px #dedede;padding:0.7em 1em;font-size:0.9em;overflow-x:auto}.hashtag{display:inline-block;color:white;background:#b8bfc2;padding:0.0em 0.5em;border-radius:1em;text-indent:0}.hashtag a{color:#fff}.address a{color:#545454;background-image:linear-gradient(to bottom, rgba(0,0,0,0) 50%,#0da35e 50%);background-repeat:repeat-x;background-size:2px 2px;background-position:0 1.05em}.address svg{position:relative;top:0.2em;display:inline-block;margin-right:0.2em}.color-preview{display:inline-block;width:1em;height:1em;border:solid 1px rgba(0,0,0,0.3);border-radius:50%;margin-right:0.1em;position:relative;top:0.2em;white-space:nowrap}.color-code{margin-right:0.2em;font-family:"Menlo-Regular";font-size:0.9em}.color-hash{opacity:0.4}.ordered-list-number{color:#e06e73;text-align:right;display:inline-block;min-width:1em}.arrow svg{position:relative;top:0.08em;display:inline-block;margin-right:0.15em;margin-left:0.15em}.arrow svg #rod{stroke:#545454}.arrow svg #point{fill:#545454}mark{color:inherit;display:inline-block;padding:0px 4px;background-color:#fcffc0}img{max-width:100%;height:auto}
-
-        </style>
+    <div class="note-wrapper">
+    <h1>32 views of computing—with Racket and Raspberry Pi</h1><p><em>First instalment coming this Spring</em></p><p><img src="images/32views-lowres.png"/></p><h2>(0 starting)</h2><p>So, you’re looking at something called <em>32 views of computing—with Racket and Raspberry Pi</em>. <em>32 views</em> for short. I’m hoping you’ll find it a useful project with some adventure in store–it certainly seems like
+an adventure for me to be starting it.</p><p>In 2017 the British Museum, London held an exhibition of the work of
+Japanese artist Katsushika Hokusai.</p><p><img src="images/britishmuseum1.jpg"/></p><p>I’m about to make a tenuous link from the art to this project about
+computing, bear with me. In about 1830, Hokusai and his daughter Ōi
+created a series of prints called <a href="https://en.wikipedia.org/wiki/Thirty-six_Views_of_Mount_Fuji">36 views of Mount
+Fuji</a>.
+They were published in groups over a number of months, and made use of
+new materials; available to Japanese artists economically for the first
+time (for example, the pigment
+<em>Berlin Blue</em>). For the price of a bowl
+of noodles, anyone could buy a print in the series; the most famous of
+which is <em>The Great Wave</em>.</p><p>We’ve reached a similar happy time in computing. For the price of a PS4
+game, anyone can buy a Raspberry Pi computer, take over the family TV as
+a monitor and explore the fantastic fun of computing. Also the Pi is
+powerful enough to support seriously capable programming tools–Python is
+rightly of course incredibly popular, but is only one of many systems
+which can be used in this activity; available for the price of a couple
+of minutes of your time installing them.</p><p>This series will use the <a href="http://racket-lang.org">Racket</a> language and
+system, which I hope we’ll be able to discover together. If programming
+languages are the computing equivalent of a Swiss Army Knife (™
+Victorinox AG), Racket is like having a Swiss Army Knife factory.
+Experiencing it is well worth your time and effort, even (especially) if
+you plan to use other languages mostly.</p><p>The emphasis will be on <em>physical computing</em>—using the Pi to sense and
+control the external world, which is the funnest fun available.</p><p>Together, the Pi, Racket and some simple hardware which you can build
+are a great combination of indoor adventure kit we can use on this
+little escapade. I’ve stolen Hokusai-sensei’s title and hopefully
+spirit of playfulness–hence <em>32 views of computing—with Racket and Raspberry Pi</em>. I
+like the multiple <em>views</em> conceit to making something, because it provides both myself and the
+reader with small, hopefully approachable chunks to digest. And <em>32</em>
+because, computers like powers of  <a href="https://en.wikipedia.org/wiki/Power_of_two">powers of
+two</a>.</p><p>The plan is to publish in parts; each available for the price of a
+bowl of noodles, though sadly I won’t be offering a ring binder as a
+special offer with the first one. Or noodles.</p><h3>Some references</h3><p><a href="https://blog.britishmuseum.org/new-exhibition-announced-hokusai-beyond-the-great-wave/">Hokusai: beyond the Great Wave–The British Museum
+Blog</a></p><p><a href="https://www.raspberrypi.org">Raspberry Pi - Teach, Learn, and Make with Raspberry Pi</a></p><p>You can <a href="https://tinyletter.com/32views">sign up</a> to be notified when
+the first instalment is available.</p>
+    <em>Built with the (fabulous) <a href="https://docs.racket-lang.org/pollen/">Pollen</a></em>.<br />
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />
+    Steve Lloyd, 2018. This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+    </div>
     </body>
 </html>
