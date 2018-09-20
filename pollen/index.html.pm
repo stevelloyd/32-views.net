@@ -3,7 +3,7 @@
 
 ◊h1{32 views of computing—with Racket and Raspberry Pi}
 
-◊em{First instalment coming this Spring}
+◊em{First instalment coming this Autumn}
 
 
 ◊img[#:src "images/32views-lowres.png" #:alt "A dragon curve drawn in Racket"]{}
