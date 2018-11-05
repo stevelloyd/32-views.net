@@ -13,13 +13,13 @@
 </style>
     </head>
     <body>
-    <nav>
+    <!-- <nav>
     <ul class="nav">
     <li><a href="index.html">Introduction</a></li>
     <li><a href="1-starting.html">(1-starting)</a></li>
     </ul>
-    </nav>
-    <hr/>
+    </nav> 
+    <hr/> -->
     <section>
       \(->html doc #:splice? #t)
       <hr/>
