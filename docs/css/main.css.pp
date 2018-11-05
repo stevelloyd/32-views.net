@@ -2,22 +2,22 @@
 
 @font-face {
     font-family: "CooperHewitt-Book";
-    src: url(fonts/CooperHewitt-Book.woff) format('woff');
+    src: url(../fonts/CooperHewitt-Book.woff) format('woff');
 }
 
 @font-face {
     font-family: "CooperHewitt-Bold";
-    src: url(fonts/CooperHewitt-Bold.woff) format('woff');
+    src: url(../fonts/CooperHewitt-Bold.woff) format('woff');
 }
 
 @font-face {
     font-family: "CooperHewitt-Medium";
-    src: url(fonts/CooperHewitt-Medium.woff) format('woff');
+    src: url(../fonts/CooperHewitt-Medium.woff) format('woff');
 }
 
 @font-face {
     font-family: "CooperHewitt-BookItalic";
-    src: url(fonts/CooperHewitt-BookItalic.woff) format('woff');
+    src: url(../fonts/CooperHewitt-BookItalic.woff) format('woff');
 }
 
 
