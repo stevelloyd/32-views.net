@@ -1,5 +1,10 @@
-.DS_Store
-Desktop.ini
-pollen/compiled
-build
 *~
+.#*
+.DS_Store
+build
+*dep
+*zo
+*zip
+**/compiled
+
+
