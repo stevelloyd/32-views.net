@@ -5,7 +5,7 @@
 
 \img[#:src "images/32views-lowres.png" #:alt "A dragon curve drawn in Racket"]{}
 
-\p{\em{First instalment coming shortly}}
+\p{\em{First instalment coming shortly…}}
 
 So, you’re looking at something called \em{32 views of computing—with Racket and Raspberry Pi}. 
 
@@ -98,7 +98,11 @@ Some project resources will require payment, and you'll need to buy or borrow so
 
 You'll see at the bottom of each page that the projects are released under a Creative Commons Atribution-ShareAlike licence, which gives you a lot of freedom to adapt and share the content.
 
-I'm looking forward to this.
+I'm looking forward to this,
+
+Steve.
+
+\img[#:src "images/led.jpg" #:alt "An led on a breadboard connected to Raspberry Pi"]{}
 
 \section[#:class "page-refs"]{
 \h3{Some references}
