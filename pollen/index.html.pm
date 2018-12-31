@@ -85,18 +85,18 @@ Amateur (ham) radio started me off in electronics making, and a University proje
 
 Machines have always also fired my imagination---from Robbie the Robot in \a[#:href "https://en.wikipedia.org/wiki/Fireball_XL5"]{Fireball XL5} via Bomb no. 20 in \a[#:href "https://en.wikipedia.org/wiki/Dark_Star_%28film%29"]{Dark Star} to the gentle robots of \a[#:href "https://en.wikipedia.org/wiki/Castle_in_the_Sky"]{Laputa}.
 
-When I had the later realization that with computers, it was possible to build imagined machines in software, it was a revelation. And also the notion that computing applications themselves are a tower of machines; the underlying microcode 
+When I later realized that with computers, it was possible to build imagined machines in software, it was a revelation. And also the notion that computing applications themselves are a tower of machines; the underlying microcode 
 \span[#:class "sidebar"]{Microcode is the basic code often used to define the features of a processor}
-pretending to be the CPU which executes the code, which is pretending to be a game, a car engine controller…
+creating the CPU, which executes the user's code, which in turn creates a nachine to be a game, a car engine controller…
 
 So, just to say there are going to be machines; built in both software and hardware, possibly even fabric.
 
 
 \h2{Do I have to pay for this?}
 
-Some project resources will require payment, and you'll need to buy or borrow some components to build with your Pi. But this online text will be available for free.
+Some project resources will require payment, and you'll need to buy or borrow some components to build projects with your Pi. But the online text will be available for free.
 
-You'll see at the bottom of each page that the projects are released under a Creative Commons Atribution-ShareAlike licence, which gives you a lot of freedom to adapt and share the content.
+You'll see that the projects are released under a Creative Commons Atribution-ShareAlike licence, which gives you a lot of freedom to adapt and share the content.
 
 I'm looking forward to this,
 
